@@ -1,6 +1,6 @@
 ---
-title: Reading List
-subtitle: a list of books I read
+title: Queryable datasets
+subtitle: webservers for interactive exploration of our studies
 layout: "page"
 icon: fa-book
 order: 3
