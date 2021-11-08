@@ -1,11 +1,10 @@
 ---
 layout: member
-title: Trevor Bedford
+title: Ed van Veen
 position: Principal investigator
-handle: trvrb
-twitter: trvrb
-github: trvrb
-scholar: RIi-1pAAAAAJ
+twitter: edvanveenPhD
+github: jevanveen
+scholar: YC4LRXoAAAAJ
 image: /images/team/trevor-bedford.jpg
 cv: /pdfs/team/trevor-bedford-cv.pdf
 ---
