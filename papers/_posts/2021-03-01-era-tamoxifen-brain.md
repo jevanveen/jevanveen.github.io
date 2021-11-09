@@ -13,4 +13,11 @@ doi: 10.7554/eLife.63333
 
 # Abstract
 
-We reconstructed the 2016–2017 Zika virus epidemic in Puerto Rico by using complete genomes to uncover the epidemic’s origin, spread, and evolutionary dynamics. Our study revealed that the epidemic was propelled by multiple introductions that spread across the island, intricate evolutionary patterns, and ≈10 months of cryptic transmission.
+Tamoxifen is a critical and inexpensive weapon in the fight against ER+ breast cancer.
+Unfortunately tamoxifen therapy produces side effects that harm quality of life
+and limit treatment compliance. Here we present 4 important findings: <br>
+1. Mice respond to tamoxifen therapy in many of the same ways as humans, making
+mice a valuable model for studying tamoxifen's side effects. <br>
+2. Tamoxifen treatment affects various hypothalamic cell types, most strikingly
+neurons and ependymal cells. <br>
+3. Loss of estrogen receptor-alpha reverses 
