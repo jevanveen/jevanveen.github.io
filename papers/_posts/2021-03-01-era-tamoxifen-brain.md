@@ -1,14 +1,14 @@
 ---
 layout: paper
-title: Tracing the origin, spread, and molecular evolution of Zika virus, Puerto Rico, 2016–2017
+title: Estrogen receptor alpha in the brain mediates tamoxifen-induced changes in physiology in mice
 image: /images/papers/santiago-zika-in-puerto-rico.png
-authors: Santiago GA, Kalinich CC, Cruz-López F, González GL, Flores B, Hentoff A, Charriez KN, Fauver JR, Adams LE, Sharp TM, Black A, Bedford T, Ellis E, Ellis B, Waterman SH, Paz-Bailey G, Grubaugh ND, Muñoz-Jordán JL.
+authors: Zhi Zhang, Jae Whan Park, In Sook Ahn, Graciel Diamante, Nilla Sivakumar, Douglas Arneson, Xia Yang, J Edward van Veen, Stephanie M Correa
 year: 2021
-ref: Santiago et al. 2021. Emerg Infect Dis.
-journal: "Emerg Infect Dis 27: 2971-2973."
+ref: Zhang et al. 2021. eLife.
+journal: "eLife 2021;10:e63333"
 pdf: /pdfs/papers/santiago-zika-in-puerto-rico.pdf
 supplement: /pdfs/papers/santiago-zika-in-puerto-rico-supp.pdf
-doi: 10.3201/eid2711.211575
+doi: 10.7554/eLife.63333
 ---
 
 # Abstract
