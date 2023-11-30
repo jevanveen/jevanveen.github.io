@@ -3,7 +3,7 @@ layout: post
 title: Thank you Allen Institute!
 author: Ed van Veen
 link: 
-image: seeer-vmh.jpg
+image: /images/blog/seeer-vmh.jpg
 ---
 
 Professor van Veen was recently named as an Allen Distinguished Investigator. We are beyond grateful to the [Allen Institute](https://alleninstitute.org/division/frontiers-group/distinguished-investigators/optical-tools-for-visualizing-sex-hormones-as-drivers-of-dynamic-internal-states/) for their regonition and support. 
