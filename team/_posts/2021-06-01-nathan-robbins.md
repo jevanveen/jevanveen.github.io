@@ -5,4 +5,5 @@ position: Graduate Student
 image: /images/team/nathan-robbins.jpg
 ---
 
-Nathan Robbins was an undergraduate researcher in the van Veen lab and has recently been admitted to the MS program in IBP at UCLA. Nathan is interested in...
+Nathan Robbins is a second year Masters Student in IBP at UCLA. He started in the lab as an undergraduate researcher before graduating in 2023 and continuing his studies in UCLA’s MS program. Nathan is interested in attending medical school and pursuing medicine in the future.
+
