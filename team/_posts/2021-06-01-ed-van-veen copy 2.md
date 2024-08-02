@@ -5,7 +5,7 @@ position: Principal investigator
 twitter: edvanveenPhD
 github: jevanveen
 scholar: YC4LRXoAAAAJ
-image: <img src="/images/team/ed-van-veen.jpg" alt="Ed van Veen" width="300" height="400">
+image: <img src="/images/team/ed-vanveen.jpg" alt="Ed van Veen" width="300" height="400">
 cv: /pdfs/team/ed-van-veen-cv.pdf
 ---
 
