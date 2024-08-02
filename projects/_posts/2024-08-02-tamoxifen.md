@@ -1,17 +1,10 @@
 ---
 layout: project
-title: 
+title: The role of the hypothalamus in tamoxifen-induced hot flashes. 
 image: /images/papers/rprm.png
 
 ---
 
 # Abstract
 
-Tamoxifen is a critical and inexpensive weapon in the fight against ER+ breast cancer.
-Unfortunately tamoxifen therapy produces side effects that harm quality of life
-and limit treatment compliance. Here we present 4 important findings: <br>
-1. Mice respond to tamoxifen therapy in many of the same ways as humans, making
-mice a valuable model for studying tamoxifen's side effects. <br>
-2. Tamoxifen treatment affects various hypothalamic cell types, most strikingly
-neurons and ependymal cells. <br>
-3. Loss of estrogen receptor-alpha reverses 
+Tamoxifen is a drug that is commonly used as an adjuvant therapy in patients with estrogen receptor positive breast cancer. It is classified as a selective estrogen receptor modulator (SERM), which means it can modulate activity at the estrogen receptor. Tamoxifen is unique because depending on the tissue in which it acts, it can act as both an estrogen agonist or antagonist, which leads to a variety of both positive and negative side effects. The most commonly reported side effect of patients taking tamoxifen is a hot flash, which can interfere greatly with patients quality of life and causes many patients to stop use of the drug. Our lab aims to understand the mechanism in which tamoxifen acts in the brain, more specifically the hypothalamus, which is the main regulator of physiological homeostasis, to mitigate the negative side effects while maintaining the positive side effects of the drug.
