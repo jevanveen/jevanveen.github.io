@@ -1,12 +1,12 @@
 # Site settings
 title: "van Veen lab"
-description: "molecular and computational neuroendocrinology"
+description: "Hormone signaling in the brain — molecular to systems neuroendocrinology"
 url: "https://jevanveen.github.io"
 author:
   name: "Ed van Veen"
-  email: "vanveen@ucla.edu"
+  email: "[add-your-email]"
   github: "jevanveen"
-  scholar: "https://scholar.google.com/citations?user=YC4LRXoAAAAJ"
+  scholar: "https://scholar.google.com/citations?user=[your-id]"
 
 # Theme
 theme: minima
@@ -15,18 +15,14 @@ theme: minima
 markdown: kramdown
 permalink: /:categories/:title/
 
-# Navigation (used by minima)
+# Social links (header icons)
 minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/jevanveen" }
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=[your-id]" }
 
-# Collections
-collections:
-  pages:
-    output: true
-
-# Plugins
+# Plugins (GitHub Pages–safe)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
