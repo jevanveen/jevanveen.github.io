@@ -65,12 +65,19 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav nav-pills ml-auto">
-						{% if page.categories.first == 'blog' %}
+						{% if page.categories.first == 'home' %}
 						<li class="nav-link active">
 						{% else %}
 						<li class="nav-link">
 						{% endif %}
-						<a class="mx-1" href="/blog/">blog</a>
+						<a class="mx-1" href="/">home</a>
+						</li>
+						{% if page.categories.first == 'resources' %}
+						<li class="nav-link active">
+						{% else %}
+						<li class="nav-link">
+						{% endif %}
+						<a class="mx-1" href="/resources/">resources</a>
 						</li>
 						{% if page.categories.first == 'papers' %}
 						<li class="nav-link active">
@@ -79,12 +86,6 @@
 						{% endif %}
 						<a class="mx-1" href="/papers/">papers</a>
 						</li>
-						{% if page.categories.first == 'projects' %}
-						<li class="nav-link active">
-						{% else %}
-						<li class="nav-link">
-						{% endif %}
-						<a class="mx-1" href="/projects/">projects</a></li>
 						{% if page.categories.first == 'team' %}
 						<li class="nav-link active">
 						{% else %}
