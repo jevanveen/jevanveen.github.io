@@ -3,7 +3,7 @@ layout: member
 title: Weronika Budek
 position: M.S. Student
 github: 
-image: /images/team/weronika-budek.jpg
+image: /images/team/weronika-budek.jpeg
 sort_key: budek, Weronika
 alumni: true
 ---

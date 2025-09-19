@@ -2,7 +2,7 @@
 layout: member
 title: Monay Martinez
 position: M.S. Student
-image: /images/team/placeholder.png
+image: /images/team/monay-martinez.jpg
 sort_key: martinez, Monay
 ---
 
