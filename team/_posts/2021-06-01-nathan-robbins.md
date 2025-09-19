@@ -1,9 +1,9 @@
 ---
 layout: member
 title: Nathan Robbins
-position: Graduate Student
+position: Medical student, UCSF
 image: /images/team/nathan-robbins.jpg
+alumni: true
 ---
 
-Nathan Robbins is a second year Masters Student in IBP at UCLA. He started in the lab as an undergraduate researcher before graduating in 2023 and continuing his studies in UCLA’s MS program. Nathan is interested in attending medical school and pursuing medicine in the future.
-
+Nathan Robbins completed his M.S. work in the van Veen lab after first joining as an undergraduate researcher. He is now pursuing his medical degree at UCSF.
