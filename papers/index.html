@@ -3,9 +3,7 @@ layout: default
 title: van Veen lab / papers
 categories:
  - papers
-scholar_url: https://scholar.google.com/citations?hl=en&user=YC4LRXoAAAAJ&view_op=list_works&sortby=pubdate
-snapshot_path: /papers/scholar-snapshot.html
-P25-09-19
+research_portal_url: https://www.researchgate.net/profile/Ed-Van-Veen/research
 ---
 
 <div class="row">
@@ -19,11 +17,9 @@ P25-09-19
 <div class="row">
 	<div class="col-lg-8">
 		<div class="note">
-			<p>Below is an embedded snapshot of our Google Scholar profile sorted by publication date. The view is cached locally so it stays visible even when Google blocks framing.</p>
-			<p class="smallnote">Update the cache weekly by running <code>bash scripts/update-scholar-snapshot.sh</code> before publishing.</p>
-			<p class="smallnote mb-3">Snapshot last updated: {{ page.snapshot_last_updated }}</p>
-			<p>If the embedded view does not load (Google occasionally blocks framing), open it in a new tab:</p>
-			<a class="btn btn-primary" href="{{ page.scholar_url }}" target="_blank" rel="noopener">Open Google Scholar</a>
+			<p>Browse the lab's ResearchGate publication feed without leaving the site.</p>
+			<p class="smallnote mb-3">If the embedded view does not load, open it directly:</p>
+			<a class="btn btn-primary" href="{{ page.research_portal_url }}" target="_blank" rel="noopener">Open ResearchGate</a>
 		</div>
 	</div>
 </div>
@@ -34,12 +30,12 @@ P25-09-19
 	<div class="col-12">
 		<div class="embed-responsive" style="height: 1200px; border: 1px solid #e5e5e5; border-radius: 4px; overflow: hidden; background-color: #fff;">
 			<iframe
-				src="{{ page.snapshot_path | default: '/papers/scholar-snapshot.html' }}"
+				src="{{ page.research_portal_url }}"
 				style="width: 100%; height: 100%; border: 0;"
-				title="Google Scholar publications snapshot"
-				sandbox="allow-same-origin allow-scripts allow-popups"
+				title="ResearchGate publications"
+				sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
 			></iframe>
 		</div>
-		<p class="smallnote mt-2">If the snapshot looks outdated, open the Google Scholar view and refresh the cached file.</p>
+		<p class="smallnote mt-2">Some browsers block embedded ResearchGate content; if you only see a blank area, use the button above.</p>
 	</div>
 </div>
