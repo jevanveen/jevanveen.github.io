@@ -9,7 +9,7 @@ image: /images/team/ed-vanveen.jpg
 cv: /pdfs/team/ed-van-veen-cv.pdf
 ---
 
-I am an Assistant Adjunct Professor in the department of [Integrative Biology and Physiology](https://www.ibp.ucla.edu) at [UCLA](https://ucla.edu).
+I am an Associate Adjunct Professor in the department of [Integrative Biology and Physiology](https://www.ibp.ucla.edu) at [UCLA](https://ucla.edu).
 
 In the van Veen lab we are applying systems neuroendocrinology approaches to questions in women's health. We are interested in how changes in brain chemistry affect neural circuit responses, producing physiological outputs. Specifically, we are looking at how the constantly changing hormonal milieu influences homeostasis in the context of normal estrogen cycling, menopause, and the impact of estrogen receptor agonists and antagonists.
 
