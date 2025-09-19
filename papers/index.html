@@ -3,7 +3,8 @@ layout: default
 title: van Veen lab / papers
 categories:
  - papers
-redirect_url: https://scholar.google.com/citations?hl=en&user=YC4LRXoAAAAJ&view_op=list_works&sortby=pubdate
+scholar_url: https://scholar.google.com/citations?hl=en&user=YC4LRXoAAAAJ&view_op=list_works&sortby=pubdate
+snapshot_last_updated: 2024-06-15
 ---
 
 <div class="row">
@@ -16,23 +17,26 @@ redirect_url: https://scholar.google.com/citations?hl=en&user=YC4LRXoAAAAJ&view_
 
 <div class="row">
 	<div class="col-lg-8">
-		<div class="head">We now track publications on Google Scholar.</div>
-		<div class="spacer"></div>
 		<div class="note">
-			<p>
-				You'll be redirected to the full, automatically updated list in a moment. If that doesn't happen, use the button below.
-			</p>
+			<p>Below is an embedded view of our Google Scholar profile sorted by publication date. The snapshot is refreshed weekly so you can browse the latest papers without leaving the site.</p>
+			<p class="smallnote mb-3">Snapshot last updated: {{ page.snapshot_last_updated }}</p>
+			<p>If the embedded view does not load (Google occasionally blocks framing), open it in a new tab:</p>
+			<a class="btn btn-primary" href="{{ page.scholar_url }}" target="_blank" rel="noopener">Open Google Scholar</a>
 		</div>
-		<div class="bigspacer"></div>
-		<a class="btn btn-primary" href="{{ page.redirect_url }}">Open Google Scholar</a>
 	</div>
 </div>
 
-<script>
-(function redirectToScholar(url) {
-	if (!url) return;
-	if (typeof window !== 'undefined') {
-		window.location.replace(url);
-	}
-})("{{ page.redirect_url }}");
-</script>
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-12">
+		<div class="embed-responsive" style="height: 1200px; border: 1px solid #e5e5e5; border-radius: 4px; overflow: hidden;">
+			<iframe
+				src="{{ page.scholar_url }}"
+				style="width: 100%; height: 100%; border: 0;"
+				title="Google Scholar publications"
+				sandbox="allow-scripts allow-same-origin allow-popups"
+			></iframe>
+		</div>
+	</div>
+</div>
