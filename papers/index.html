@@ -4,6 +4,7 @@ title: van Veen lab / papers
 categories:
  - papers
 scholar_url: https://scholar.google.com/citations?hl=en&user=YC4LRXoAAAAJ&view_op=list_works&sortby=pubdate
+snapshot_path: /papers/scholar-snapshot.html
 snapshot_last_updated: 2024-06-15
 ---
 
@@ -18,7 +19,8 @@ snapshot_last_updated: 2024-06-15
 <div class="row">
 	<div class="col-lg-8">
 		<div class="note">
-			<p>Below is an embedded view of our Google Scholar profile sorted by publication date. The snapshot is refreshed weekly so you can browse the latest papers without leaving the site.</p>
+			<p>Below is an embedded snapshot of our Google Scholar profile sorted by publication date. The view is cached locally so it stays visible even when Google blocks framing.</p>
+			<p class="smallnote">Update the cache weekly by running <code>bash scripts/update-scholar-snapshot.sh</code> before publishing.</p>
 			<p class="smallnote mb-3">Snapshot last updated: {{ page.snapshot_last_updated }}</p>
 			<p>If the embedded view does not load (Google occasionally blocks framing), open it in a new tab:</p>
 			<a class="btn btn-primary" href="{{ page.scholar_url }}" target="_blank" rel="noopener">Open Google Scholar</a>
@@ -30,13 +32,14 @@ snapshot_last_updated: 2024-06-15
 
 <div class="row">
 	<div class="col-12">
-		<div class="embed-responsive" style="height: 1200px; border: 1px solid #e5e5e5; border-radius: 4px; overflow: hidden;">
+		<div class="embed-responsive" style="height: 1200px; border: 1px solid #e5e5e5; border-radius: 4px; overflow: hidden; background-color: #fff;">
 			<iframe
-				src="{{ page.scholar_url }}"
+				src="{{ page.snapshot_path | default: '/papers/scholar-snapshot.html' }}"
 				style="width: 100%; height: 100%; border: 0;"
-				title="Google Scholar publications"
-				sandbox="allow-scripts allow-same-origin allow-popups"
+				title="Google Scholar publications snapshot"
+				sandbox="allow-same-origin allow-scripts allow-popups"
 			></iframe>
 		</div>
+		<p class="smallnote mt-2">If the snapshot looks outdated, open the Google Scholar view and refresh the cached file.</p>
 	</div>
 </div>

@@ -16,7 +16,7 @@ categories:
 <div class="bigspacer"></div>
 
 
-{% assign team_members = site.categories.team | sort: 'title' %}
+{% assign team_members = site.categories.team | sort: 'sort_key' %}
 
 {% for member in team_members %}
 	{% if member.alumni != true %}

@@ -7,6 +7,7 @@ github: jevanveen
 scholar: YC4LRXoAAAAJ
 image: /images/team/ed-vanveen.jpg
 cv: /pdfs/team/ed-van-veen-cv.pdf
+sort_key: zzzzz, Ed van Veen
 ---
 
 I am an Associate Adjunct Professor in the department of [Integrative Biology and Physiology](https://www.ibp.ucla.edu) at [UCLA](https://ucla.edu).
