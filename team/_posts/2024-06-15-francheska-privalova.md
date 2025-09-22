@@ -2,7 +2,7 @@
 layout: member
 title: Francheska Privalova
 position: M.S. Student
-image: /images/team/placeholder.png
+image: /images/team/francheska-privalova.jpg
 sort_key: privalova, Francheska
 ---
 

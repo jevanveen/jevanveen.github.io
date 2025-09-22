@@ -2,7 +2,7 @@
 layout: member
 title: Taylor Pikhart
 position: Undergraduate Student
-image: /images/team/placeholder.png
+image: /images/team/taylor-pikhart.jpg
 sort_key: pikhart, Taylor
 ---
 
