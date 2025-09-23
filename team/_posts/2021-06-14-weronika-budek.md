@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Weronika Budek
-position: M.S. Student
+position: PhD Student, Columbia University
 github: 
 image: /images/team/weronika-budek.jpeg
 sort_key: budek, Weronika

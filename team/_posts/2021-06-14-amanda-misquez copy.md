@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Amanda Misquez
-position: M.S. Student
+position: Professor
 github: 
 image: /images/team/amanda-misquez.jpg
 sort_key: misquez, Amanda
