@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Monay Martinez
+title: Rosalizbeth "Monay" Martinez
 position: M.S. Student
 image: /images/team/monay-martinez.jpg
 sort_key: martinez, Monay
