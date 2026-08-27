@@ -5,46 +5,99 @@ categories:
  - resources
 ---
 
-<div class="row">
-	<div class="col-lg-12">
-		<div class="head">Webservers for single-cell studies</div>
-		<div class="spacer"></div>
-	</div>
-</div>
+<div class="resources-page">
+	<header class="resources-heading">
+		<h1>Resources</h1>
+		<p>Materials accompanying our paper on neuro-seeER</p>
+	</header>
 
-<div class="row">
-	<div class="col-lg-12">
-		<div class="note">
-			<p>
-				Single-cell RNA sequencing has revolutionized our understanding of cellular heterogeneity, but making sense of
-				these datasets requires approachable visualization tools. Below are the interactive webservers we maintain so you can
-				explore hormone-responsive cell populations without writing code.
+	<article class="resources-paper">
+		<div class="resources-paper-copy">
+			<p class="resources-label">New paper · August 28, 2026</p>
+			<h2>A bifunctional optical reporter for tracking estrogen response dynamics in neurons</h2>
+			<p class="resources-authors">
+				Cara, Guthman, Mishra, Hall, Yokoyama, Sandoval, Gregg, Aghi, Soma, Correa, Falkner, and van&#160;Veen
 			</p>
+			<p>
+				neuro-seeER distinguishes estrogen-sensitive neurons from neurons actively responding to estrogen. It can be
+				used with standard microscopy and photometry approaches in vitro and in vivo, including longitudinal
+				measurements in behaving animals.
+			</p>
+			<a class="resources-text-link" href="https://doi.org/10.64898/2025.12.14.694224" target="_blank" rel="noopener noreferrer">
+				Read the paper / preprint →
+			</a>
 		</div>
-		<div class="bigspacer"></div>
-	</div>
-</div>
+		<img
+			class="resources-paper-image"
+			src="/images/resources/neuro-seeer-cover.png"
+			alt="Fluorescence microscopy image accompanying the neuro-seeER paper"
+		/>
+	</article>
 
-<div class="row">
-	<div class="col-lg-12">
-		<div class="smallhead">
-			<a class="off" href="https://correalab.shinyapps.io/natmetabshiny/">Heterogeneity of the ventromedial hypothalamus (2020)</a>
-		</div>
-		<div class="smallnote">
-			Query genes of interest to explore their expression patterns in our ventromedial hypothalamus dataset.
-		</div>
-		<div class="bigspacer"></div>
-	</div>
-</div>
+	<section class="resources-section">
+		<h2>Paper resources</h2>
+		<div class="resources-list">
+			<a class="resources-row" href="https://www.addgene.org/plasmids/articles/28273799/" target="_blank" rel="noopener noreferrer">
+				<div>
+					<h3>Reporter and construct availability</h3>
+					<p>neuro-seeER plasmids and associated construct information.</p>
+				</div>
+				<span>Addgene ↗</span>
+			</a>
 
-<div class="row">
-	<div class="col-lg-12">
-		<div class="smallhead">
-			<a class="off" href="https://correalab.shinyapps.io/tamoxifenshiny/">Tamoxifen response explorer (2021)</a>
+			<a class="resources-row" href="https://github.com/jevanveen/microscopie/tree/Neuron" target="_blank" rel="noopener noreferrer">
+				<div>
+					<h3>Analysis code</h3>
+					<p>Microscopy analysis functions used for Cara, Guthman et al., Neuron 2026.</p>
+				</div>
+				<span>GitHub ↗</span>
+			</a>
+
+			<a class="resources-row" href="https://doi.org/10.5281/zenodo.21716692" target="_blank" rel="noopener noreferrer">
+				<div>
+					<h3>Archived software release</h3>
+					<p>A permanent, citable snapshot of the analysis code associated with the paper.</p>
+				</div>
+				<span>Zenodo ↗</span>
+			</a>
+
+			<div class="resources-row resources-upcoming">
+				<div>
+					<h3>Protocols</h3>
+					<p>AAV delivery, microscopy, snapshot photometry, and recommended validation controls.</p>
+				</div>
+				<span>Coming with release</span>
+			</div>
 		</div>
-		<div class="smallnote">
-			Investigate differential expression across neural and glial cell types in response to tamoxifen treatment using our
-			interactive viewer.
+	</section>
+
+	<section class="resources-section">
+		<h2>Earlier resources</h2>
+		<div class="resources-list">
+			<a class="resources-row" href="https://correalab.shinyapps.io/natmetabshiny/" target="_blank" rel="noopener noreferrer">
+				<div>
+					<h3>Heterogeneity of the ventromedial hypothalamus</h3>
+					<p>Explore gene expression in our 2020 single-cell dataset.</p>
+				</div>
+				<span>2020 webserver ↗</span>
+			</a>
+
+			<a class="resources-row" href="https://correalab.shinyapps.io/tamoxifenshiny/" target="_blank" rel="noopener noreferrer">
+				<div>
+					<h3>Tamoxifen response explorer</h3>
+					<p>Explore neural and glial responses to tamoxifen.</p>
+				</div>
+				<span>2021 webserver ↗</span>
+			</a>
 		</div>
-	</div>
+	</section>
+
+	<section class="resources-about">
+		<h2>About neuro-seeER</h2>
+		<p>
+			The reporter combines stable cre-dependent red fluorescence marking cell identity with a short-lived green signal
+			reporting estrogen-response-element activity. This makes it possible to distinguish cells actively responding to
+			estrogen within a chosen parent population.
+		</p>
+	</section>
 </div>

@@ -367,6 +367,177 @@ blockquote {
     display: inline
 }
 
+/* resources */
+
+.resources-page {
+	padding: 20px 0 30px;
+}
+
+.resources-heading {
+	margin-bottom: 42px;
+}
+
+.resources-heading h1 {
+	margin-bottom: 12px;
+	font-size: 34px;
+	line-height: 1.2;
+}
+
+.resources-heading p {
+	margin-bottom: 0;
+	color: #666;
+	font-size: 17px;
+}
+
+.resources-paper {
+	width: calc(100% + 70px);
+	max-width: 1040px;
+	margin: 0 0 54px 50%;
+	padding: 26px 28px;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 290px;
+	align-items: start;
+	gap: 30px;
+	transform: translateX(-50%);
+	border-left: 4px solid $primary;
+	background: #f7f7f7;
+}
+
+.resources-paper-copy {
+	min-width: 0;
+}
+
+.resources-paper h2 {
+	margin-bottom: 10px;
+	font-size: 25px;
+	line-height: 1.3;
+}
+
+.resources-paper p {
+	margin-bottom: 14px;
+}
+
+.resources-paper .resources-label {
+	margin-bottom: 8px;
+	color: #777;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.resources-paper .resources-authors {
+	color: #666;
+	font-size: 13px;
+}
+
+.resources-paper-image {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.resources-text-link {
+	font-weight: 500;
+}
+
+.resources-section {
+	margin-bottom: 54px;
+}
+
+.resources-section h2,
+.resources-about h2 {
+	margin-bottom: 20px;
+	font-size: 24px;
+	line-height: 1.3;
+}
+
+.resources-list {
+	border-top: 1px solid #ddd;
+}
+
+.resources-row {
+	min-height: 104px;
+	padding: 22px 4px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 28px;
+	border-bottom: 1px solid #ddd;
+	color: inherit;
+}
+
+a.resources-row:hover {
+	background: #fafafa;
+	color: inherit;
+	text-decoration: none;
+}
+
+.resources-row > div {
+	max-width: 700px;
+}
+
+.resources-row h3 {
+	margin-bottom: 4px;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.resources-row p {
+	margin-bottom: 0;
+	color: #666;
+	font-size: 14px;
+}
+
+.resources-row > span {
+	min-width: 128px;
+	color: $primary;
+	font-size: 13px;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.resources-upcoming > span {
+	color: #999;
+}
+
+.resources-about {
+	max-width: 760px;
+}
+
+@media (max-width: 700px) {
+	.resources-page {
+		padding-top: 10px;
+	}
+
+	.resources-heading {
+		margin-bottom: 34px;
+	}
+
+	.resources-paper {
+		width: auto;
+		margin-left: 0;
+		padding: 22px 20px;
+		grid-template-columns: 1fr;
+		gap: 24px;
+		transform: none;
+	}
+
+	.resources-paper-image {
+		max-width: 320px;
+	}
+
+	.resources-row {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.resources-row > span {
+		text-align: left;
+	}
+}
+
 /* Infinite scroll */
 
 .infinite-spinner {
