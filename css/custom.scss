@@ -489,12 +489,23 @@ a.resources-row:hover {
 	font-size: 14px;
 }
 
-.resources-row > span {
+.resources-row > span,
+.resources-row-action {
 	min-width: 128px;
 	color: $primary;
 	font-size: 13px;
 	text-align: right;
 	white-space: nowrap;
+}
+
+.resources-row-action:hover {
+	color: $primary;
+}
+
+.resources-row .resources-text-link {
+	margin-top: 6px;
+	display: inline-block;
+	font-size: 13px;
 }
 
 .resources-upcoming > span {
@@ -533,7 +544,8 @@ a.resources-row:hover {
 		gap: 8px;
 	}
 
-	.resources-row > span {
+	.resources-row > span,
+	.resources-row-action {
 		text-align: left;
 	}
 }
