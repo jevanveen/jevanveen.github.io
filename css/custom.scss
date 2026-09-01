@@ -512,6 +512,31 @@ a.resources-row:hover {
 	color: #999;
 }
 
+.resources-disclosure {
+	border-bottom: 1px solid #ddd;
+}
+
+.resources-disclosure summary {
+	padding: 16px 4px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.resources-disclosure summary::marker {
+	color: $primary;
+}
+
+.resources-disclosure ul {
+	margin: 0;
+	padding: 0 4px 18px 28px;
+}
+
+.resources-disclosure li {
+	color: #666;
+	font-size: 14px;
+}
+
 .resources-about {
 	max-width: 760px;
 }
