@@ -537,6 +537,39 @@ a.resources-row:hover {
 	font-size: 14px;
 }
 
+.resources-protocol {
+	padding: 0 4px 20px;
+	color: #666;
+	font-size: 14px;
+}
+
+.resources-gel-placeholders {
+	margin-top: 18px;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 18px;
+}
+
+.resources-gel-placeholders figure {
+	margin: 0;
+}
+
+.resources-gel-placeholder {
+	min-height: 150px;
+	border: 1px dashed #bbb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fafafa;
+	color: #999;
+}
+
+.resources-gel-placeholders figcaption {
+	margin-top: 6px;
+	color: #666;
+	font-size: 13px;
+}
+
 .resources-about {
 	max-width: 760px;
 }
@@ -572,6 +605,10 @@ a.resources-row:hover {
 	.resources-row > span,
 	.resources-row-action {
 		text-align: left;
+	}
+
+	.resources-gel-placeholders {
+		grid-template-columns: 1fr;
 	}
 }
 
