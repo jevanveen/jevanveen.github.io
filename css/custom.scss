@@ -550,6 +550,57 @@ a.resources-row:hover {
 	}
 }
 
+/* join the lab */
+
+.join-page {
+	max-width: 850px;
+	padding: 20px 0 30px;
+}
+
+.join-heading {
+	margin-bottom: 38px;
+}
+
+.join-heading h1 {
+	margin-bottom: 0;
+	font-size: 34px;
+	line-height: 1.2;
+}
+
+.join-page section {
+	margin-bottom: 40px;
+}
+
+.join-page h2 {
+	margin-bottom: 14px;
+	font-size: 24px;
+	line-height: 1.3;
+}
+
+.join-page p,
+.join-page li {
+	font-size: 15px;
+	line-height: 1.65;
+}
+
+.join-application-list {
+	padding-left: 24px;
+}
+
+.join-application-list > li {
+	margin-bottom: 14px;
+	padding-left: 4px;
+}
+
+.join-application-list ol {
+	margin-bottom: 12px;
+	padding-left: 24px;
+}
+
+.join-application-list ol li {
+	margin-bottom: 5px;
+}
+
 /* Infinite scroll */
 
 .infinite-spinner {
