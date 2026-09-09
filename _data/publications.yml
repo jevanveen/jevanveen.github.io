@@ -1,0 +1,87 @@
+- year: 2026
+  papers:
+    - title: Targeting Estrogen to the Brain via DHED does not seem to Protect Against Metabolic Dysfunction in Obese OVX Mice
+      venue: Endocrinology, bqag082
+    - title: Single-Nucleus Transcriptomics Reveals Cell Type-Specific Remodeling and Epilepsy-Associated Microglia
+      venue: bioRxiv preprint
+    - title: Sex-specific thermoregulatory effects of estrogen signaling in Reprimo lineage cells
+      venue: Endocrinology 167(1), bqaf177
+    - title: A bifunctional optical reporter for tracking estrogen response dynamics in neurons
+      venue: Neuron
+
+- year: 2025
+  papers:
+    - title: The lung cancer autochthonous model gene expression database enables cross-study comparisons of the transcriptomic landscapes across mouse models
+      venue: Cancer Research 85(10), 1769–1783
+
+- year: 2024
+  papers:
+    - title: 8302 A Novel Tool to Map Estrogen Responsiveness Within Estrogen Sensitive Hypothalamic Neurons in Mice
+      venue: Journal of the Endocrine Society 8
+
+- year: 2023
+  papers:
+    - title: Feeding neurons integrate metabolic and reproductive states in mice
+      venue: iScience 26(10)
+
+- year: 2022
+  papers:
+    - title: Transposon Mutagenesis Reveals RBMS3 Silencing as a Promoter of Malignant Progression of BRAFV600E-Driven Lung Tumorigenesis
+      venue: Cancer Research 82(22), 4261–4273
+
+- year: 2021
+  papers:
+    - title: Estrogen receptor alpha in the brain mediates tamoxifen-induced changes in physiology in mice
+      venue: eLife 10, e63333
+
+- year: 2020
+  papers:
+    - title: Estrogen-sensitive medial preoptic area neurons coordinate torpor in mice
+      venue: Nature Communications 11, 6378
+    - title: Transcriptional analysis of the multiple Sry genes and developmental program at the onset of testis differentiation in the rat
+      venue: Biology of Sex Differences 11, 28
+    - title: Hypothalamic oestrogen receptor alpha establishes a sexually dimorphic regulatory node of energy expenditure
+      venue: Nature Metabolism 2, 351–363
+
+- year: 2019
+  papers:
+    - title: IDOL regulates systemic energy balance through control of neuronal VLDLR expression
+      venue: Nature Metabolism 1, 1089–1100
+    - title: Mutationally-activated PI3′-kinase-α promotes de-differentiation of lung tumors initiated by the BRAFV600E oncoprotein kinase
+      venue: eLife 8, e43668
+
+- year: 2016
+  papers:
+    - title: P2A-Fluorophore Tagging of BRAF Tightly Links Expression to Fluorescence In Vivo
+      venue: PLOS ONE 11(6), e0157661
+    - title: A requirement for filopodia extension toward Slit during Robo-mediated axon repulsion
+      venue: Journal of Cell Biology 213(2), 261–274
+
+- year: 2012
+  papers:
+    - title: Repulsive axonal pathfinding requires the Ena/VASP family of actin regulatory proteins in vertebrates
+      venue: Massachusetts Institute of Technology doctoral dissertation
+
+- year: 2011
+  papers:
+    - title: Accelerating axonal growth promotes motor recovery after peripheral nerve injury in mice
+      venue: Journal of Clinical Investigation 121, 4332–4347
+
+- year: 2010
+  papers:
+    - title: A high-throughput microfluidic assay to study neurite response to growth factor gradients
+      venue: Lab on a Chip
+
+- year: 2007
+  papers:
+    - title: SIRT1 transgenic mice show phenotypes resembling calorie restriction
+      venue: Aging Cell 6(6), 759–767
+    - title: Filopodia are required for cortical neurite initiation
+      venue: Nature Cell Biology 9(12), 1347–1359
+    - title: Ena/VASP Is Required for neuritogenesis in the developing cortex
+      venue: Neuron 56(3), 441–455
+
+- year: 2003
+  papers:
+    - title: "Meiosis: when even two is a crowd"
+      venue: Current Biology 13(21), R831–R833

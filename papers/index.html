@@ -6,21 +6,26 @@ categories:
 scholar_url: https://scholar.google.com/citations?hl=en&user=YC4LRXoAAAAJ&view_op=list_works&sortby=pubdate
 ---
 
-<div class="row">
-	<div class="col-lg-12">
-		<div class="title">Publications</div>
-	</div>
-</div>
+<div class="papers-page">
+	<header class="papers-heading">
+		<h1>Publications</h1>
+		<p>Publications are listed by date, newest first.</p>
+		<a class="btn btn-primary" href="{{ page.scholar_url }}" target="_blank" rel="noopener noreferrer">View Google Scholar profile</a>
+	</header>
 
-<div class="bigspacer"></div>
-
-<div class="row">
-	<div class="col-lg-8">
-		<div class="note">
-			<p>Our publications are tracked on Google Scholar. Use the button below to open the latest list in a new window.</p>
-			<a class="btn btn-primary" href="{{ page.scholar_url }}" target="_blank" rel="noopener">View Google Scholar profile</a>
+	{% for group in site.data.publications %}
+	<section class="papers-year">
+		<h2>{{ group.year }}</h2>
+		<div class="papers-list">
+			{% for paper in group.papers %}
+			<article class="papers-row">
+				<h3>
+					<a href="https://scholar.google.com/scholar?q={{ paper.title | uri_escape }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>
+				</h3>
+				<p>{{ paper.venue }}</p>
+			</article>
+			{% endfor %}
 		</div>
-	</div>
+	</section>
+	{% endfor %}
 </div>
-
-<div class="bigspacer"></div>

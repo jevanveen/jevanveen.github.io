@@ -576,6 +576,67 @@ a.resources-row:hover {
 	font-size: 13px;
 }
 
+.papers-page {
+	max-width: 920px;
+	margin: 0 auto;
+	padding: 44px 20px 64px;
+}
+
+.papers-heading {
+	margin-bottom: 46px;
+}
+
+.papers-heading h1 {
+	margin-bottom: 8px;
+	font-size: 34px;
+	font-weight: 500;
+}
+
+.papers-heading p {
+	margin-bottom: 18px;
+	color: #666;
+}
+
+.papers-year {
+	margin-bottom: 38px;
+}
+
+.papers-year h2 {
+	margin-bottom: 12px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.papers-list {
+	border-top: 1px solid #ddd;
+}
+
+.papers-row {
+	padding: 16px 4px;
+	border-bottom: 1px solid #ddd;
+}
+
+.papers-row h3 {
+	margin-bottom: 4px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.papers-row h3 a {
+	color: inherit;
+}
+
+.papers-row h3 a:hover {
+	color: $primary;
+}
+
+.papers-row p {
+	margin: 0;
+	color: #666;
+	font-size: 14px;
+}
+
 .resources-about {
 	max-width: 760px;
 }
