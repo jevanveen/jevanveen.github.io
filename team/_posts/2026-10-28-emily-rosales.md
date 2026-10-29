@@ -1,4 +1,5 @@
 ---
+group: graduate
 layout: member
 title: Emily Rosales-Siliezar
 position: MS Student

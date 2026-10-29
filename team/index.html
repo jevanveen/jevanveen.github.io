@@ -5,66 +5,134 @@ categories:
  - team
 ---
 
-<div class="row">
-	<div class="col-lg-12">
-		<div class="title">
-			Current members
-		</div>
-	</div>
-</div>
-
-<div class="bigspacer"></div>
-
-
 {% assign team_members = site.categories.team | sort: 'sort_key' %}
 
-{% for member in team_members %}
-	{% if member.alumni != true %}
-    {% cycle 'add rows': '<div class="row">', '', '' %}
-		<div class="col-lg-4 memberbox">
-			<div class="media">
-  				<a class="float-left" href="{{ member.url }}">
-    				<img width=160 class="mr-3" src="{{ member.image }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="head mb-1"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-    				<p class="note">{{ member.position }}</p>
-  				</div>
-			</div>
-			<div class="bigspacer"></div>
-			<div class="bigspacer"></div>
-        </div>
-    {% cycle 'close rows': '', '', '</div>' %}
-    {% endif %}
-{% endfor %}
-{% cycle 'close rows': '', '</div>', '</div>' %}
+<!-- PRINCIPAL INVESTIGATOR -->
 
 <div class="row">
-	<div class="col-lg-12">
-		<div class="title">
-			Past members
-		</div>
-	</div>
+  <div class="col-lg-12">
+    <div class="title">Principal Investigator</div>
+  </div>
 </div>
 
 <div class="bigspacer"></div>
 
+<div class="row">
 {% for member in team_members %}
-	{% if member.alumni == true %}
-    {% cycle 'add rows 2': '<div class="row">', '', '' %}
-		<div class="col-lg-4 memberbox">
-			<div class="media">
-	  			<a class="float-left" href="{{ member.url }}">
-	    			<img width=160 class="mr-3" src="{{ member.image }}">
-	  			</a>
-			 	<div class="media-body">
-    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-    				<p class="note">{{ member.position }}</p>
-  				</div>
-			</div>
-			<div class="bigspacer"></div>
+  {% if member.alumni != true and member.group == 'pi' %}
+    <div class="col-lg-4 memberbox">
+      <div class="media">
+        <a class="float-left" href="{{ member.url }}">
+          <img width="160" class="mr-3" src="{{ member.image }}">
+        </a>
+        <div class="media-body">
+          <div class="head mb-1">
+            <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+          </div>
+          <p class="note">{{ member.position }}</p>
         </div>
-    {% cycle 'close rows 2': '', '', '</div>' %}
-    {% endif %}
+      </div>
+      <div class="bigspacer"></div>
+      <div class="bigspacer"></div>
+    </div>
+  {% endif %}
 {% endfor %}
-{% cycle 'close rows 2': '', '</div>', '</div>' %}
+</div>
+
+
+<!-- GRADUATE STUDENTS -->
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="title">Graduate Students</div>
+  </div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+{% for member in team_members %}
+  {% if member.alumni != true and member.group == 'graduate' %}
+    <div class="col-lg-4 memberbox">
+      <div class="media">
+        <a class="float-left" href="{{ member.url }}">
+          <img width="160" class="mr-3" src="{{ member.image }}">
+        </a>
+        <div class="media-body">
+          <div class="head mb-1">
+            <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+          </div>
+          <p class="note">{{ member.position }}</p>
+        </div>
+      </div>
+      <div class="bigspacer"></div>
+      <div class="bigspacer"></div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+
+<!-- UNDERGRADUATE STUDENTS -->
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="title">Undergraduate Students</div>
+  </div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+{% for member in team_members %}
+  {% if member.alumni != true and member.group == 'undergraduate' %}
+    <div class="col-lg-4 memberbox">
+      <div class="media">
+        <a class="float-left" href="{{ member.url }}">
+          <img width="160" class="mr-3" src="{{ member.image }}">
+        </a>
+        <div class="media-body">
+          <div class="head mb-1">
+            <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+          </div>
+          <p class="note">{{ member.position }}</p>
+        </div>
+      </div>
+      <div class="bigspacer"></div>
+      <div class="bigspacer"></div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+
+<!-- ALUMNI -->
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="title">Alumni</div>
+  </div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+{% for member in team_members %}
+  {% if member.alumni == true %}
+    <div class="col-lg-4 memberbox">
+      <div class="media">
+        <a class="float-left" href="{{ member.url }}">
+          <img width="160" class="mr-3" src="{{ member.image }}">
+        </a>
+        <div class="media-body">
+          <div class="head mb-1">
+            <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+          </div>
+          <p class="note">{{ member.position }}</p>
+        </div>
+      </div>
+      <div class="bigspacer"></div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>

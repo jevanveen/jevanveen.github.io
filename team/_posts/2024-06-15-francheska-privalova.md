@@ -1,4 +1,5 @@
 ---
+group: graduate
 layout: member
 title: Francheska Privalova
 position: M.S. Student

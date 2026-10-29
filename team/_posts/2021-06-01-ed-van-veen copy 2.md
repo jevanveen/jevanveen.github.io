@@ -1,4 +1,5 @@
 ---
+group: pi
 layout: member
 title: Ed van Veen
 position: Principal investigator

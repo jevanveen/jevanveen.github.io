@@ -1,4 +1,5 @@
 ---
+group: undergraduate
 layout: member
 title: Jennifer Yang
 position: Undergraduate Student

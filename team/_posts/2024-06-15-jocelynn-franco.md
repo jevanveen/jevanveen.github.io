@@ -1,4 +1,5 @@
 ---
+group: graduate
 layout: member
 title: Jocelynn Franco
 position: M.S. Student

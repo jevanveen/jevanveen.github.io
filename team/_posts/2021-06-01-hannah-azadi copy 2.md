@@ -1,4 +1,5 @@
 ---
+group: graduate
 layout: member
 title: Hannah Azadi
 position: Ph.D. Student

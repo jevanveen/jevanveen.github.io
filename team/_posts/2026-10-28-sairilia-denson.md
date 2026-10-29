@@ -1,4 +1,5 @@
 ---
+group: graduate
 layout: member
 title: Sairilia Denson
 position: MS Student

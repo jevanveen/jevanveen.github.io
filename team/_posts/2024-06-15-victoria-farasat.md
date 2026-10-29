@@ -1,4 +1,5 @@
 ---
+group: graduate
 layout: member
 title: Victoria Farasat
 position: M.S. Student
