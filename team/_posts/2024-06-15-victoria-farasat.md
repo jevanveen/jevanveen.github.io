@@ -2,7 +2,7 @@
 layout: member
 title: Victoria Farasat
 position: M.S. Student
-image: /images/team/placeholder.png
+image: /images/team/victoria-farasat.jpg
 sort_key: farasat, Victoria
 ---
 
