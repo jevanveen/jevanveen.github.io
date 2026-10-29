@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Hannah Azadi
-position: Graduate Student
+position: Ph.D. Student
 image: /images/team/hannah-azadi.jpg
 sort_key: azadi, Hannah
 ---
