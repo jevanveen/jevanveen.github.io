@@ -2,7 +2,7 @@
 group: pi
 layout: member
 title: Ed van Veen
-position: Principal investigator
+position: team cheerleader
 twitter: edvanveenPhD
 github: jevanveen
 scholar: YC4LRXoAAAAJ
