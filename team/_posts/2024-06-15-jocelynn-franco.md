@@ -2,7 +2,7 @@
 layout: member
 title: Jocelynn Franco
 position: M.S. Student
-image: /images/team/placeholder.png
+image: /images/team/jocelynn-franco.jpg
 sort_key: franco, Jocelynn
 ---
 
