@@ -7,7 +7,16 @@ categories:
 
 <div class="row">
 	<div class="col-lg-12">
-		<object class="pull-left" data="/images/logo.png" width="250" height="145"></object>
+		<button 
+		id="secret-logo" 
+		class="pull-left" 
+		type="button" 
+		aria-label="Toggle secret lab photo"
+  		aria-pressed="false" 
+		style="background: none; border: none; padding: 0; cursor: pointer;"
+		>
+	  		<img src="/images/logo.png" width="250" height="145" alt="van Veen lab logo displaying the name van Veen lab, for the UCLA research laboratory">
+		</button>
 		<div class="bigtitle logobox">
 			van Veen lab research at <a href = "https://ucla.edu" style="color:#2774AE;">UCLA</a>.
 		</div>
@@ -35,7 +44,14 @@ categories:
 <div class="row">
 	<div class="col-lg-12 text-center">
 		<p> Current team in 2026 </p>
-		<img src="/images/team/van-veen-lab-team-2026.jpg" class="img-fluid" alt="van Veen lab team in 2026" style="max-width: 100%; height: auto; border-radius: 6px;">
+			<img
+  			id="team-photo"
+  			src="/images/team/van-veen-lab-team-2026.jpg"
+  			class="img-fluid"
+  			alt="van Veen lab team in 2026"
+  			style="max-width: 100%; height: auto; border-radius: 6px; transition: opacity 0.2s ease;"
+			>
+
 	</div>
 </div>
 
@@ -49,3 +65,44 @@ categories:
 </div>
 
 <div class="bigspacer"></div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const logo = document.getElementById("secret-logo");
+  const photo = document.getElementById("team-photo");
+
+  const normalPhoto = "/images/team/van-veen-lab-team-2026.jpg";
+  const sillyPhoto = "/images/team/van-veen-lab-silly.jpg";
+
+  // Preload the silly photo
+  const preload = new Image();
+  preload.src = sillyPhoto;
+
+  let sillyMode = false;
+  let switching = false;
+
+  logo.addEventListener("click", function () {
+    if (switching) return;
+
+    switching = true;
+    sillyMode = !sillyMode;
+
+    photo.style.opacity = "0";
+
+    setTimeout(function () {
+      photo.src = sillyMode ? sillyPhoto : normalPhoto;
+
+      photo.alt = sillyMode
+        ? "The van Veen lab showing its silly side"
+        : "van Veen lab team in 2026";
+
+      logo.setAttribute("aria-pressed", String(sillyMode));
+
+      photo.style.opacity = "1";
+      switching = false;
+    }, 200);
+  });
+});
+
+</script>
